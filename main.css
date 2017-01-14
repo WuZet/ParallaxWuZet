@@ -1,0 +1,105 @@
+body {
+	font-family: "Roboto Slab", serif;	
+}
+
+a {
+	font-size: 20px;
+	color: #060;
+	text-decoration: none;	
+}
+
+.fa-bicycle{
+  font-size: 150px;
+  padding: 50px 0 15px;
+  color: blue;
+}
+.fa-futbol-o{
+  font-size: 150px;
+  padding: 50px 0 15px;
+  color: orange;
+}
+.fa-suitcase{
+  font-size: 150px;
+  padding: 50px 0 15px;
+  color:blue;
+}
+
+section.module h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: rgba(204,204,204,1);
+}
+section.module p {
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28px;	
+
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 60px 0;
+  text-align: left;
+}
+section.module.parallax {
+  height: 800px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 48px;
+  line-height: 800px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url(image/wiosna.jpg);
+}
+section.module.parallax-2 {
+  background-image: url(image/lato.jpg);
+}
+section.module.parallax-3 {
+  background-image: url(image/jesien.jpg);
+}
+section.module.parallax-4 {
+  background-image: url(image/zima.jpg);
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 38px;
+  }
+  section.module a {
+    font-size: 22px;
+  }
+  section.module.parallax h1 {
+    font-size: 82px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 145px;
+  }
+}
+
+@media all and (max-width: 680px) {
+  section.module.content {
+  text-align: center;
+}
+}
+footer{
+  background-color: #eee;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+footer p{
+  margin-left: 10px;
+}
